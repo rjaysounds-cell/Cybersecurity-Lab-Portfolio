@@ -13,3 +13,16 @@ To build an isolated penetration testing environment using "Infrastructure as Co
 4. Verification
 • Connectivity: Achieved 0% packet loss during ping testing between Attacker and Victim.
 • Reconnaissance: Initialized Nmap service scanning to begin vulnerability mapping.
+## 5. Lab Results: Initial Reconnaissance
+Successfully performed a network discovery scan using **Nmap**. 
+
+### Scan Findings:
+* **Target IP:** 10.0.2.60
+* **Status:** Up and Responsive
+* **Key Services Identified:**
+    * Port 21 (FTP) - Version: [Paste version here]
+    * Port 80 (HTTP) - Version: Apache [Paste version here]
+    * Port 445 (SMB) - OS: Linux/Metasploitable
+
+### Analysis:
+The scan revealed multiple outdated services with known CVEs (Common Vulnerabilities and Exposures). This environment is now ready for exploitation testing.
