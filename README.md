@@ -13,6 +13,15 @@ To build an isolated penetration testing environment using "Infrastructure as Co
 4. Verification
 • Connectivity: Achieved 0% packet loss during ping testing between Attacker and Victim.
 • Reconnaissance: Initialized Nmap service scanning to begin vulnerability mapping.
+## 6. Phase 2: Vulnerability Research
+Successfully mapped the attack surface of the Metasploitable 3 target. 
+
+**Methodology:** Utilized `nmap -sV` for service version discovery over the virtual NAT network.
+
+**Discovery:**
+* Target IP: `10.0.2.60`
+* Status: Live
+* Services: Identified [Number of ports] open ports including [Name 2 or 3 services you see, e.g., HTTP, FTP, and RPC].
 
 
 
